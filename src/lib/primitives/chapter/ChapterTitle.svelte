@@ -10,9 +10,9 @@
 	.chapter-title {
 		display: flex;
 		align-items: flex-end;
-		margin-bottom: fluid(60, 120); // @TODO
+		margin-bottom: var(--spacing-01);
 
-		@include breakpoint($breakpoint-mobile) {
+		@include breakpoint($breakpoint-01) {
 			justify-content: flex-start;
 		}
 

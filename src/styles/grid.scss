@@ -6,7 +6,7 @@
 	--grid-columns: repeat(var(--grid-column-count), minmax(0, 1fr));
 	--grid-gutter: #{fluid.fluid(12, 24)};
 
-	@include breakpoints.breakpoint(breakpoints.$breakpoint-mobile) {
+	@include breakpoints.breakpoint(breakpoints.$breakpoint-01) {
 		--grid-column-count: 4;
 	}
 }

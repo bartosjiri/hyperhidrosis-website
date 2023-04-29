@@ -9,9 +9,9 @@
 <style lang="scss">
 	.list-item-counter {
 		display: flex;
-		margin-bottom: fluid(15, 30); // @TODO
+		margin-bottom: var(--spacing-01);
 
-		@include breakpoint($breakpoint-mobile) {
+		@include breakpoint($breakpoint-01) {
 			justify-content: flex-end;
 		}
 	}

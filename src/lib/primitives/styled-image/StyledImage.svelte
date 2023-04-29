@@ -12,6 +12,7 @@
 <style lang="scss">
 	.styled-image {
 		position: relative;
+		display: flex;
 
 		:global(img) {
 			display: block;

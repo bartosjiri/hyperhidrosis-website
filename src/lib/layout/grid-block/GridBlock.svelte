@@ -5,6 +5,11 @@
 	const restProps = rest;
 </script>
 
-<div class="{id} {$$restProps.class || ''}" style="grid-area: {id}" {...restProps}>
+<div
+	class:grid-block={true}
+	class="{id} {$$restProps.class || ''}"
+	style="grid-area: {id}"
+	{...restProps}
+>
 	<slot />
 </div>

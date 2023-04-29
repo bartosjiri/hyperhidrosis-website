@@ -1,0 +1,7 @@
+@use './fluid.scss';
+
+:root {
+	--spacing-01: #{fluid.fluid(20, 26)};
+	--spacing-02: #{fluid.fluid(42, 92)};
+	--spacing-03: #{fluid.fluid(64, 128)};
+}

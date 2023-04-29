@@ -10,7 +10,7 @@
 
 <style lang="scss">
 	.chapter-description {
-		margin-bottom: fluid(60, 120); // @TODO
+		margin-bottom: var(--spacing-03);
 
 		p {
 			@include typography-02;

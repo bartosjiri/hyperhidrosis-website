@@ -10,7 +10,7 @@
 
 <style lang="scss">
 	.list-item-description {
-		margin-bottom: fluid(30, 60); // @TODO
+		margin-bottom: var(--spacing-02);
 
 		p {
 			color: var(--color-foreground-02);

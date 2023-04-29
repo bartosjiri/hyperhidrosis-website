@@ -6,6 +6,6 @@
 
 <style lang="scss">
 	.list-item-title {
-		margin-bottom: fluid(15, 30); // @TODO
+		margin-bottom: var(--spacing-01);
 	}
 </style>
