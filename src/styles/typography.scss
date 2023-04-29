@@ -1,0 +1,21 @@
+@use './fluid.scss';
+
+:root {
+	--typography-size-01: #{fluid.fluid(18, 24)};
+	--typography-size-02: #{fluid.fluid(30, 60)};
+
+	--typography-line-height-01: 1.42;
+	--typography-line-height-02: 1.14;
+
+	--typography-weight-01: 500;
+}
+
+@mixin typography-01 {
+	font-size: var(--typography-size-01);
+	line-height: var(--typography-line-height-01);
+}
+
+@mixin typography-02 {
+	font-size: var(--typography-size-02);
+	line-height: var(--typography-line-height-02);
+}

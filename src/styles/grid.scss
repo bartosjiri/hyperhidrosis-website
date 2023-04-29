@@ -1,0 +1,18 @@
+@use './breakpoints.scss';
+@use './fluid.scss';
+
+:root {
+	--grid-column-count: 12;
+	--grid-columns: repeat(var(--grid-column-count), minmax(0, 1fr));
+	--grid-gutter: #{fluid.fluid(12, 24)};
+
+	@include breakpoints.breakpoint(breakpoints.$breakpoint-mobile) {
+		--grid-column-count: 4;
+	}
+}
+
+@mixin grid-columns($columnCount) {
+	grid-template-columns: repeat($columnCount, minmax(0, 1fr));
+	column-gap: var(--grid-gutter);
+	grid-template-rows: max-content;
+}

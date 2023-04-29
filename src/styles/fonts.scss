@@ -1,0 +1,115 @@
+$font-family-primary: 'General Sans';
+
+:root {
+	--font-family-primary: #{$font-family-primary}, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-Extralight.woff2') format('woff2'),
+		url('/fonts/GeneralSans-Extralight.woff') format('woff');
+	font-weight: 200;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-ExtralightItalic.woff2') format('woff2'),
+		url('/fonts/GeneralSans-ExtralightItalic.woff') format('woff');
+	font-weight: 200;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-Light.woff2') format('woff2'),
+		url('/fonts/GeneralSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-LightItalic.woff2') format('woff2'),
+		url('/fonts/GeneralSans-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-Regular.woff2') format('woff2'),
+		url('/fonts/GeneralSans-Regular.woff') format('woff');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-Italic.woff2') format('woff2'),
+		url('/fonts/GeneralSans-Italic.woff') format('woff');
+	font-weight: 400;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-Medium.woff2') format('woff2'),
+		url('/fonts/GeneralSans-Medium.woff') format('woff');
+	font-weight: 500;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-MediumItalic.woff2') format('woff2'),
+		url('/fonts/GeneralSans-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-Semibold.woff2') format('woff2'),
+		url('/fonts/GeneralSans-Semibold.woff') format('woff');
+	font-weight: 600;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-SemiboldItalic.woff2') format('woff2'),
+		url('/fonts/GeneralSans-SemiboldItalic.woff') format('woff');
+	font-weight: 600;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-Bold.woff2') format('woff2'),
+		url('/fonts/GeneralSans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: $font-family-primary;
+	src: url('/fonts/GeneralSans-BoldItalic.woff2') format('woff2'),
+		url('/fonts/GeneralSans-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-display: swap;
+	font-style: italic;
+}
