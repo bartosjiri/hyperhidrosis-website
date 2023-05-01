@@ -18,16 +18,8 @@
 			display: block;
 			width: 100%;
 			height: max-content;
-			object-fit: contain;
+			object-fit: cover;
 			filter: grayscale(1);
-			// filter: sepia(1);
-
-			// hard-lignt+grayscale
-			// hard-lignt+sepia
-			// multiply+grayscale
-			// overlay
-			// screen
-			// soft-light
 		}
 
 		&:after {
@@ -40,10 +32,6 @@
 			right: 0;
 			background: var(--color-foreground-01);
 			mix-blend-mode: hard-light;
-			// mix-blend-mode: multiply;
-			// mix-blend-mode: overlay;
-			// mix-blend-mode: screen;
-			// mix-blend-mode: soft-light;
 		}
 	}
 </style>

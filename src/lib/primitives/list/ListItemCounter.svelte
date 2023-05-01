@@ -12,6 +12,10 @@
 		margin-bottom: var(--spacing-01);
 
 		@include breakpoint($breakpoint-01) {
+			justify-content: flex-start;
+		}
+
+		@include breakpoint($breakpoint-02) {
 			justify-content: flex-end;
 		}
 	}

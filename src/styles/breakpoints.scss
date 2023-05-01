@@ -1,4 +1,5 @@
 $breakpoint-01: 1280;
+$breakpoint-02: 640;
 
 @mixin breakpoint($size) {
 	@media only screen and (max-width: #{$size}px) {

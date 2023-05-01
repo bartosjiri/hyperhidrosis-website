@@ -1,1 +1,1 @@
-export { default as GridBlock } from "./GridBlock.svelte"
+export { default as GridBlock } from './GridBlock.svelte';
