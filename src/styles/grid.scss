@@ -18,5 +18,4 @@
 @mixin grid-columns($columnCount) {
 	grid-template-columns: repeat($columnCount, minmax(0, 1fr));
 	column-gap: var(--grid-gutter);
-	grid-template-rows: max-content;
 }

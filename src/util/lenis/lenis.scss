@@ -1,0 +1,31 @@
+.lenis {
+	height: auto;
+
+	&.lenis-smooth {
+		scroll-behavior: auto;
+
+		[data-lenis-prevent] {
+			overscroll-behavior: contain;
+		}
+	}
+
+	&.lenis-stopped {
+		overflow: hidden;
+	}
+
+	&.lenis-scrolling {
+		iframe {
+			pointer-events: none;
+		}
+	}
+
+	&.lenis-hide-scrollbar {
+		scrollbar-width: none !important;
+		-ms-overflow-style: none;
+
+		&::-webkit-scrollbar {
+			width: 0 !important;
+			height: 0 !important;
+		}
+	}
+}

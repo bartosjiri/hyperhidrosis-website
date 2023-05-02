@@ -78,7 +78,8 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+button {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -126,4 +127,13 @@ q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	color: inherit;
+	background: initial;
+	-webkit-appearance: button;
 }

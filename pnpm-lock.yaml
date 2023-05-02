@@ -1,12 +1,18 @@
 lockfileVersion: '6.0'
 
 devDependencies:
+  '@studio-freight/lenis':
+    specifier: ^1.0.11
+    version: 1.0.11
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
     version: 2.0.0(@sveltejs/kit@1.5.0)
   '@sveltejs/kit':
     specifier: ^1.5.0
     version: 1.5.0(svelte@3.54.0)(vite@4.2.0)
+  '@sveltejs/svelte-scroller':
+    specifier: ^2.0.7
+    version: 2.0.7
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.45.0
     version: 5.45.0(@typescript-eslint/parser@5.45.0)(eslint@8.28.0)(typescript@5.0.2)
@@ -355,6 +361,10 @@ packages:
       picomatch: 2.3.1
     dev: true
 
+  /@studio-freight/lenis@1.0.11:
+    resolution: {integrity: sha512-N4VpYVXQS0BhbExl9CADyPp3vmRb2p4JME+exdguT/OrYTprkUv13BQODtryR/QebWS36n/NKgic5lVBMMa4+A==}
+    dev: true
+
   /@sveltejs/adapter-auto@2.0.0(@sveltejs/kit@1.5.0):
     resolution: {integrity: sha512-b+gkHFZgD771kgV3aO4avHFd7y1zhmMYy9i6xOK7m/rwmwaRO8gnF5zBc0Rgca80B2PMU1bKNxyBTHA14OzUAQ==}
     peerDependencies:
@@ -390,6 +400,10 @@ packages:
       vite: 4.2.0(sass@1.53.0)
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@sveltejs/svelte-scroller@2.0.7:
+    resolution: {integrity: sha512-GuVePK4S0ubUJVYw2ixO1/8AVa792rNlhORXLeb2z7JHRKTqxOvg8Ye7sb4nZry/stgZEOlCpDV9qJeqHQKesw==}
     dev: true
 
   /@sveltejs/vite-plugin-svelte@2.1.0(svelte@3.54.0)(vite@4.2.0):
