@@ -10,22 +10,22 @@
 </script>
 
 <Section id="coping">
-	<GridBlock id="c1t">
+	<GridBlock name="c1t">
 		<ChapterTitle value="Coping" />
 	</GridBlock>
-	<GridBlock id="c1d">
+	<GridBlock name="c1d">
 		<ChapterDescription>
 			Living with&nbsp;hyperhidrosis can be challenging, but&nbsp;there are several coping
 			strategies that can help manage the&nbsp;symptoms.
 		</ChapterDescription>
 	</GridBlock>
-	<GridBlock id="l1c">
+	<GridBlock name="l1c">
 		<ListItemCounter value={1} />
 	</GridBlock>
-	<GridBlock id="l1t">
+	<GridBlock name="l1t">
 		<ListItemTitle>Managing symptoms</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l1d">
+	<GridBlock name="l1d">
 		<ListItemDescription>
 			<ul class:list={true}>
 				<li>
@@ -40,13 +40,13 @@
 			</ul>
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="l2c">
+	<GridBlock name="l2c">
 		<ListItemCounter value={2} />
 	</GridBlock>
-	<GridBlock id="l2t">
+	<GridBlock name="l2t">
 		<ListItemTitle>Dealing with impact</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l2d">
+	<GridBlock name="l2d">
 		<ListItemDescription>
 			<ul class:list={true}>
 				<li>
@@ -64,13 +64,13 @@
 			</ul>
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="l3c">
+	<GridBlock name="l3c">
 		<ListItemCounter value={3} />
 	</GridBlock>
-	<GridBlock id="l3t">
+	<GridBlock name="l3t">
 		<ListItemTitle>Connecting with others</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l3d">
+	<GridBlock name="l3d">
 		<ListItemDescription>
 			<ul class:list={true}>
 				<li>

@@ -11,7 +11,6 @@
 		display: grid;
 		grid-template-columns: var(--grid-columns);
 		column-gap: var(--grid-gutter);
-		margin: 0 #{fluid(15, 100)}; // @TODO
-		margin-bottom: 30rem; // @TODO
+		margin: 200px var(--spacing-wrapper);
 	}
 </style>

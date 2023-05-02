@@ -8,7 +8,10 @@
 
 	const handleClick = () => {
 		startBodyScroll();
-		$scrollInstance?.scrollTo(`#${sectionId}`, { immediate: true });
+		$scrollInstance?.scrollTo(`#${sectionId}`, {
+			immediate: true,
+			offset: -200
+		});
 		$navigationOpen = false;
 	};
 </script>
@@ -27,7 +30,6 @@
 <style lang="scss">
 	.navigation-item {
 		display: flex;
-		margin: 10px 0;
 
 		button {
 			display: flex;
@@ -66,9 +68,11 @@
 			}
 
 			.link {
+				overflow: hidden;
+
 				span {
 					font-size: 12vw;
-					line-height: var(--typography-line-height-02);
+					line-height: 1;
 					text-transform: uppercase;
 				}
 			}

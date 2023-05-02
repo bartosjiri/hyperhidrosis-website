@@ -14,22 +14,22 @@
 </script>
 
 <Section id="treatment">
-	<GridBlock id="c1t">
+	<GridBlock name="c1t">
 		<ChapterTitle value="Treatment" />
 	</GridBlock>
-	<GridBlock id="c1d">
+	<GridBlock name="c1d">
 		<ChapterDescription>
 			Based on the&nbsp;severity of the&nbsp;condition and individual preferences, hyperhidrosis can
 			be treated with a&nbsp;variety of&nbsp;methods.
 		</ChapterDescription>
 	</GridBlock>
-	<GridBlock id="l1c">
+	<GridBlock name="l1c">
 		<ListItemCounter value={1} />
 	</GridBlock>
-	<GridBlock id="l1t">
+	<GridBlock name="l1t">
 		<ListItemTitle>Lifestyle changes</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l1d">
+	<GridBlock name="l1d">
 		<ListItemDescription>
 			Certain lifestyle changes can help reduce symptoms of hyperhidrosis. Eating a&nbsp;healthy
 			diet, exercising regularly, wearing breathable fabrics, and&nbsp;avoiding stressful situations
@@ -37,13 +37,13 @@
 			a&nbsp;big difference in&nbsp;managing hyperhidrosis.
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="l2c">
+	<GridBlock name="l2c">
 		<ListItemCounter value={2} />
 	</GridBlock>
-	<GridBlock id="l2t">
+	<GridBlock name="l2t">
 		<ListItemTitle>Antiperspirants</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l2d">
+	<GridBlock name="l2d">
 		<ListItemDescription>
 			Antiperspirants are commonly used to treat excessive sweating by blocking sweat glands
 			and&nbsp;reducing sweat production. Over-the-counter antiperspirants are typically
@@ -51,13 +51,13 @@
 			available for people with more severe symptoms.
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="l3c">
+	<GridBlock name="l3c">
 		<ListItemCounter value={3} />
 	</GridBlock>
-	<GridBlock id="l3t">
+	<GridBlock name="l3t">
 		<ListItemTitle>Medications</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l3d">
+	<GridBlock name="l3d">
 		<ListItemDescription>
 			A&nbsp;wide range of medications can be used to treat hyperhidrosis. Specific&nbsp;medications
 			can help to prevent the&nbsp;stimulation of sweat glands and&nbsp;reduce excessive sweating.
@@ -65,13 +65,13 @@
 			discuss this option with a&nbsp;healthcare provider.
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="l4c">
+	<GridBlock name="l4c">
 		<ListItemCounter value={4} />
 	</GridBlock>
-	<GridBlock id="l4t">
+	<GridBlock name="l4t">
 		<ListItemTitle>Botox injections</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l4d">
+	<GridBlock name="l4d">
 		<ListItemDescription>
 			Botox injections can be used to treat excessive sweating in certain areas by preventing sweat
 			gland stimulation. This&nbsp;treatment is typically recommended for&nbsp;people who have not
@@ -79,13 +79,13 @@
 			but&nbsp;it can be expensive and&nbsp;may require multiple applications.
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="l5c">
+	<GridBlock name="l5c">
 		<ListItemCounter value={5} />
 	</GridBlock>
-	<GridBlock id="l5t">
+	<GridBlock name="l5t">
 		<ListItemTitle>Surgery</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l5d">
+	<GridBlock name="l5d">
 		<ListItemDescription>
 			Surgery is typically reserved for the&nbsp;most severe cases of excessive sweating that have
 			not responded to other treatments. This&nbsp;procedure often involves cutting the nerves that
@@ -93,10 +93,10 @@
 			ineffective and&nbsp;may cause unwanted side&nbsp;effects.
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="im1">
+	<GridBlock name="im1">
 		<StyledImage src={TreatmentImage1} alt="Treatment" />
 	</GridBlock>
-	<GridBlock id="im2">
+	<GridBlock name="im2">
 		<StyledImage src={TreatmentImage2} alt="Treatment" />
 	</GridBlock>
 </Section>

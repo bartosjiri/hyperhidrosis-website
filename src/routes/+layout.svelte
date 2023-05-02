@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { PageMeta } from '$util/meta';
 	import { FathomAnalytics } from '$util/fathom-analytics';
 	import { LenisWrapper } from '$util/lenis';
 	import { SvelteScroller } from '$util/svelte-scroller';
@@ -8,6 +9,7 @@
 	import '../styles/_global.scss';
 </script>
 
+<PageMeta />
 <FathomAnalytics />
 
 <Header />

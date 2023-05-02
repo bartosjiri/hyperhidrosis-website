@@ -13,22 +13,22 @@
 </script>
 
 <Section id="causes">
-	<GridBlock id="c1t">
+	<GridBlock name="c1t">
 		<ChapterTitle value="Causes" />
 	</GridBlock>
-	<GridBlock id="c1d">
+	<GridBlock name="c1d">
 		<ChapterDescription>
 			Sweat is essential to&nbsp;human survival and&nbsp;serves as the&nbsp;body's coolant. However,
 			overactive sweat glands can produce more sweat than is&nbsp;necessary.
 		</ChapterDescription>
 	</GridBlock>
-	<GridBlock id="l1c">
+	<GridBlock name="l1c">
 		<ListItemCounter value={1} />
 	</GridBlock>
-	<GridBlock id="l1t">
+	<GridBlock name="l1t">
 		<ListItemTitle>Primary hyperhidrosis</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l1d">
+	<GridBlock name="l1d">
 		<ListItemDescription>
 			Primary focal hyperhidrosis is&nbsp;characterized by excessive sweating that is not caused by
 			another medical condition or a&nbsp;medication. This&nbsp;type of hyperhidrosis typically
@@ -37,13 +37,13 @@
 			during childhood or&nbsp;adolescence.
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="l2c">
+	<GridBlock name="l2c">
 		<ListItemCounter value={2} />
 	</GridBlock>
-	<GridBlock id="l2t">
+	<GridBlock name="l2t">
 		<ListItemTitle>Secondary hyperhidrosis</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l2d">
+	<GridBlock name="l2d">
 		<ListItemDescription>
 			Secondary generalized hyperhidrosis is excessive sweating that occurs as a&nbsp;result of
 			an&nbsp;underlying medical condition or as&nbsp;a&nbsp;side effect of a&nbsp;medication.
@@ -52,7 +52,7 @@
 			excessive sweating usually starts in&nbsp;adulthood.
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="im1">
+	<GridBlock name="im1">
 		<StyledImage src={CausesImage} alt="Causes" />
 	</GridBlock>
 </Section>

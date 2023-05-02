@@ -34,7 +34,7 @@
 			sectionId: 'coping'
 		},
 		{
-			label: 'About',
+			label: 'Share',
 			sectionId: 'about'
 		}
 	];
@@ -54,13 +54,13 @@
 
 		if (listRef.clientHeight < window.innerHeight) {
 			isStatic = true;
-			if (!$navigationScrollInstance?.isStopped) {
-				$navigationScrollInstance.scrollTo('top', { immediate: true });
+			if (!$navigationScrollInstance.isStopped) {
+				$navigationScrollInstance.scrollTo('top', { immediate: true }); // @TODO: Not working?
 				stopNavigationScroll();
 			}
 		} else {
 			isStatic = false;
-			if ($navigationScrollInstance?.isStopped) startNavigationScroll();
+			if ($navigationScrollInstance.isStopped) startNavigationScroll();
 		}
 	};
 

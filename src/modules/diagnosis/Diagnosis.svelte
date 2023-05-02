@@ -13,22 +13,22 @@
 </script>
 
 <Section id="diagnosis">
-	<GridBlock id="c1t">
+	<GridBlock name="c1t">
 		<ChapterTitle value="Diagnosis" />
 	</GridBlock>
-	<GridBlock id="c1d">
+	<GridBlock name="c1d">
 		<ChapterDescription>
 			Healthcare professionals have a&nbsp;wide range of options for examining excessive sweating
 			and&nbsp;diagnosing hyperhidrosis.
 		</ChapterDescription>
 	</GridBlock>
-	<GridBlock id="l1c">
+	<GridBlock name="l1c">
 		<ListItemCounter value={1} />
 	</GridBlock>
-	<GridBlock id="l1t">
+	<GridBlock name="l1t">
 		<ListItemTitle>Physical examination</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l1d">
+	<GridBlock name="l1d">
 		<ListItemDescription>
 			During a&nbsp;physical examination, a&nbsp;healthcare professional will examine
 			the&nbsp;affected areas and ask about the person's medical history, including any medications
@@ -36,13 +36,13 @@
 			or&nbsp;contributing factors that may be causing the&nbsp;excessive sweating.
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="l2c">
+	<GridBlock name="l2c">
 		<ListItemCounter value={2} />
 	</GridBlock>
-	<GridBlock id="l2t">
+	<GridBlock name="l2t">
 		<ListItemTitle>Sweat test</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l2d">
+	<GridBlock name="l2d">
 		<ListItemDescription>
 			A&nbsp;sweat test involves coating the&nbsp;skin with a&nbsp;powder that changes color when
 			wet or&nbsp;placing electrodes on the&nbsp;skin to stimulate the&nbsp;sweat glands
@@ -50,13 +50,13 @@
 			professional to determine the&nbsp;severity of the&nbsp;sweating and whether it is excessive.
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="l3c">
+	<GridBlock name="l3c">
 		<ListItemCounter value={3} />
 	</GridBlock>
-	<GridBlock id="l3t">
+	<GridBlock name="l3t">
 		<ListItemTitle>Imaging and other diagnostic tests</ListItemTitle>
 	</GridBlock>
-	<GridBlock id="l3d">
+	<GridBlock name="l3d">
 		<ListItemDescription>
 			In some cases, additional diagnostic tests such as imaging tests or&nbsp;blood tests may be
 			used to rule out underlying medical conditions that could be causing the&nbsp;hyperhidrosis.
@@ -64,7 +64,7 @@
 			any&nbsp;potential issues that need to be addressed.
 		</ListItemDescription>
 	</GridBlock>
-	<GridBlock id="im1">
+	<GridBlock name="im1">
 		<StyledImage src={DiagnosisImage} alt="Diagnosis" />
 	</GridBlock>
 </Section>

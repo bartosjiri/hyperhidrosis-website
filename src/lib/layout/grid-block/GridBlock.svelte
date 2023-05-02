@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let id: string;
+	export let name: string;
 
 	const { class: _, ...rest } = $$restProps;
 	const restProps = rest;
@@ -7,8 +7,8 @@
 
 <div
 	class:grid-block={true}
-	class="{id} {$$restProps.class || ''}"
-	style="grid-area: {id}"
+	class="{name} {$$restProps.class || ''}"
+	style="grid-area: {name}"
 	{...restProps}
 >
 	<slot />
