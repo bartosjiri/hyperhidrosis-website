@@ -1,8 +1,28 @@
 export const META_DOMAIN = 'https://hyperhidrosis.help';
 
 export const META_TITLE = `HYPERHIDROSIS.HELP`;
-export const META_DESCRIPTION = '@TODO';
-export const META_KEYWORDS = ['@TODO'];
+export const META_DESCRIPTION =
+	'Learn about hyperhidrosis, a condition characterized by excessive sweating. Find out about the causes, diagnosis, and treatment options.';
+export const META_KEYWORDS = [
+	'hyperhidrosis',
+	'sweat',
+	'excessive sweating',
+	'uncontrollable sweating',
+	'sweaty hands',
+	'hand sweating',
+	'sweaty face',
+	'face sweating',
+	'sweaty head',
+	'head sweating',
+	'sweaty underarms',
+	'underarm sweating',
+	'sweaty  armpits',
+	'armpit sweating',
+	'sweaty feet',
+	'feet sweating',
+	'night sweats',
+	'night sweating'
+];
 
 export const META_THEME_COLOR = '#f6f5f1';
 export const META_APPLE_COLOR = '#214bc7';

@@ -18,8 +18,8 @@
 	</GridBlock>
 	<GridBlock name="c1d">
 		<ChapterDescription>
-			Sweat is essential to&nbsp;human survival and&nbsp;serves as the&nbsp;body's coolant. However,
-			overactive sweat glands can produce more sweat than is&nbsp;necessary.
+			Hyperhidrosis causes can be complex, but&nbsp;with&nbsp;understanding comes the&nbsp;ability
+			to effectively manage the&nbsp;condition.
 		</ChapterDescription>
 	</GridBlock>
 	<GridBlock name="l1c">
@@ -31,7 +31,7 @@
 	<GridBlock name="l1d">
 		<ListItemDescription>
 			Primary focal hyperhidrosis is&nbsp;characterized by excessive sweating that is not caused by
-			another medical condition or a&nbsp;medication. This&nbsp;type of hyperhidrosis typically
+			another medical condition or&nbsp;medication. This&nbsp;type of hyperhidrosis typically
 			affects specific areas of the&nbsp;body, such as the&nbsp;palms, soles, underarms,
 			and&nbsp;face. Primary&nbsp;hyperhidrosis is thought to be inherited and&nbsp;usually begins
 			during childhood or&nbsp;adolescence.
@@ -46,7 +46,7 @@
 	<GridBlock name="l2d">
 		<ListItemDescription>
 			Secondary generalized hyperhidrosis is excessive sweating that occurs as a&nbsp;result of
-			an&nbsp;underlying medical condition or as&nbsp;a&nbsp;side effect of a&nbsp;medication.
+			an&nbsp;underlying medical condition or as&nbsp;a&nbsp;side effect of&nbsp;medication.
 			Unlike&nbsp;primary hyperhidrosis, this type is characterized by excessive sweating all over
 			the&nbsp;body, often&nbsp;experienced during sleep. With&nbsp;secondary hyperhidrosis,
 			excessive sweating usually starts in&nbsp;adulthood.
@@ -71,7 +71,7 @@
 			align-items: center;
 
 			:global(.styled-image) {
-				height: fluid(1050, 750);
+				height: fluid(1050, 700);
 			}
 		}
 

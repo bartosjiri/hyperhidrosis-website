@@ -90,7 +90,7 @@
 			align-items: center;
 
 			:global(.styled-image) {
-				height: fluid(1750, 1350);
+				height: fluid(1750, 1250);
 			}
 		}
 

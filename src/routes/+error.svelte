@@ -1,14 +1,10 @@
-<script lang="ts" context="module">
-	type LoadParams = {
-		status: number;
-	};
+<script lang="ts">
+	import { browser } from '$app/environment';
+	import { page } from '$app/stores';
 
-	export const load = async ({ status }: LoadParams) => {
-		if (status === 404) {
-			return {
-				status: 302,
-				redirect: '/'
-			};
-		}
-	};
+	if (browser && $page.status === 404) {
+		location.replace('/');
+	}
 </script>
+
+<slot />

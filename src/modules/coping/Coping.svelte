@@ -28,6 +28,7 @@
 	<GridBlock name="l1d">
 		<ListItemDescription>
 			<ul class:list={true}>
+				<li>Seek help from a healthcare professional</li>
 				<li>
 					Wear breathable clothing made from natural fibers, such&nbsp;as cotton or&nbsp;linen,
 					and&nbsp;avoid synthetic fabrics
@@ -54,8 +55,8 @@
 					for their support
 				</li>
 				<li>
-					Seek the&nbsp;help of a&nbsp;therapist or&nbsp;counselor to manage the&nbsp;emotional
-					impact of the&nbsp;condition
+					Seek help of a&nbsp;therapist or&nbsp;counselor to manage the&nbsp;emotional impact of
+					the&nbsp;condition
 				</li>
 				<li>
 					Keep in mind that hyperhidrosis is&nbsp;a&nbsp;medical condition and&nbsp;not

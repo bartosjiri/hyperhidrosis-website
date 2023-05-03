@@ -15,10 +15,6 @@
 		display: flex;
 
 		:global(img) {
-			display: block;
-			width: 100%;
-			height: max-content;
-			object-fit: cover;
 			filter: grayscale(1);
 		}
 

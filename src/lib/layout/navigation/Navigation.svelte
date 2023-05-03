@@ -15,7 +15,7 @@
 	const NAVIGATION_ITEMS = [
 		{
 			label: 'Intro',
-			sectionId: 'introduction'
+			sectionId: 'intro'
 		},
 		{
 			label: 'Causes',

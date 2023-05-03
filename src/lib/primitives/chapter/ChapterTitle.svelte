@@ -3,7 +3,7 @@
 </script>
 
 <div class:chapter-title={true} {...$$restProps}>
-	<span>({value})</span>
+	<h2>({value})</h2>
 </div>
 
 <style lang="scss">
@@ -16,7 +16,7 @@
 			justify-content: flex-start;
 		}
 
-		span {
+		h2 {
 			text-transform: uppercase;
 		}
 	}

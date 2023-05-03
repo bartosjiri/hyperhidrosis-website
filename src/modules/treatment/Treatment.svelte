@@ -129,7 +129,7 @@
 			align-items: center;
 
 			:global(.styled-image) {
-				height: fluid(900, 600);
+				height: fluid(900, 550);
 			}
 		}
 
