@@ -77,6 +77,11 @@
 		<meta property="og:image:height" content={META_OG_IMAGE_HEIGHT.toString()} />
 	{/if}
 
+	{#if !twitter}
+		<meta name="twitter:image" content={META_OG_IMAGE_URL} />
+		<meta name="twitter:card" content={'summary_large_image'} />
+	{/if}
+
 	{#if openGraph}
 		{#if openGraph.type}
 			<meta property="og:type" content={openGraph.type.toLowerCase()} />
