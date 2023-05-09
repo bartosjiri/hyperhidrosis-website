@@ -55,12 +55,12 @@
 		if (listRef.clientHeight < window.innerHeight) {
 			isStatic = true;
 			if (!$navigationScrollInstance.isStopped) {
-				$navigationScrollInstance.scrollTo('top', { immediate: true }); // @TODO: Not working?
 				stopNavigationScroll();
 			}
 		} else {
 			isStatic = false;
 			if ($navigationScrollInstance.isStopped) startNavigationScroll();
+			$navigationScrollInstance.scrollTo('top', { immediate: true });
 		}
 	};
 
