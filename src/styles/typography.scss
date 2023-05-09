@@ -1,8 +1,8 @@
-@use './fluid.scss';
+@use './fluid.scss' as *;
 
 :root {
-	--typography-size-01: #{fluid.fluid(20, 26)};
-	--typography-size-02: #{fluid.fluid(32, 64)};
+	--typography-size-01: #{fluid(20, 26)};
+	--typography-size-02: #{fluid(32, 64)};
 
 	--typography-line-height-01: 1.42;
 	--typography-line-height-02: 1.125;

@@ -1,16 +1,16 @@
-@use './breakpoints.scss';
-@use './fluid.scss';
+@use './breakpoints.scss' as *;
+@use './fluid.scss' as *;
 
 :root {
 	--grid-column-count: 12;
 	--grid-columns: repeat(var(--grid-column-count), minmax(0, 1fr));
-	--grid-gutter: #{fluid.fluid(12, 24)};
+	--grid-gutter: #{fluid(12, 24)};
 
-	@include breakpoints.breakpoint(breakpoints.$breakpoint-01) {
+	@include breakpoint($breakpoint-01) {
 		--grid-column-count: 8;
 	}
 
-	@include breakpoints.breakpoint(breakpoints.$breakpoint-02) {
+	@include breakpoint($breakpoint-02) {
 		--grid-column-count: 4;
 	}
 }
