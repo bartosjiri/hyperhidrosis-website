@@ -40,19 +40,13 @@
 	];
 
 	let containerRef: HTMLElement;
-	let listRef: HTMLElement;
+	let listRefs: HTMLElement[] = [];
 	let isStatic = false;
 
-	const cloneList = () => {
-		const cloneElement = listRef.cloneNode(true) as HTMLElement;
-		cloneElement.classList.add('clone');
-		containerRef.appendChild(cloneElement);
-	};
-
 	const setLayout = () => {
-		if (!$navigationScrollInstance || !listRef || typeof window === 'undefined') return;
+		if (!$navigationScrollInstance || !listRefs.length || typeof window === 'undefined') return;
 
-		if (listRef.clientHeight < window.innerHeight) {
+		if (listRefs[0].clientHeight < window.innerHeight) {
 			isStatic = true;
 			if (!$navigationScrollInstance.isStopped) {
 				stopNavigationScroll();
@@ -65,11 +59,10 @@
 	};
 
 	onMount(() => {
-		if (!containerRef || !listRef) return;
-		cloneList();
+		if (!containerRef || !listRefs.length) return;
 		initNavigationScrollInstance({
 			wrapper: containerRef,
-			content: listRef,
+			content: listRefs[0],
 			infinite: true
 		});
 	});
@@ -96,11 +89,13 @@
 	class:is-open={$navigationOpen}
 	class:is-static={isStatic}
 >
-	<ul class:list={true} bind:this={listRef}>
-		{#each NAVIGATION_ITEMS as { label, sectionId }, index}
-			<NavigationItem counter={index + 1} {label} {sectionId} />
-		{/each}
-	</ul>
+	{#each Array.from({ length: 2 }) as _, listIndex}
+		<ul class:list={true} class:clone={listIndex === 1} bind:this={listRefs[listIndex]}>
+			{#each NAVIGATION_ITEMS as { label, sectionId }, itemIndex}
+				<NavigationItem counter={itemIndex + 1} {label} {sectionId} />
+			{/each}
+		</ul>
+	{/each}
 </nav>
 
 <style lang="scss">
