@@ -13,7 +13,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@studio-freight/lenis": "^1.0.34",
+		"@studio-freight/lenis": "1.0.11",
 		"@sveltejs/adapter-auto": "^2.1.1",
 		"@sveltejs/kit": "^1.30.3",
 		"@sveltejs/svelte-scroller": "^2.0.7",
