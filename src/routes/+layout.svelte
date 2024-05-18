@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { PageMeta } from '$util/meta';
-	import { FathomAnalytics } from '$util/fathom-analytics';
+	import { UmamiAnalytics } from '$util/umami-analytics';
 	import { LenisWrapper } from '$util/lenis';
 	import { SvelteScroller } from '$util/svelte-scroller';
 
@@ -10,7 +10,7 @@
 </script>
 
 <PageMeta />
-<FathomAnalytics />
+<UmamiAnalytics />
 
 <Header />
 <Navigation />
