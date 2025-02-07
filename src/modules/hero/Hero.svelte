@@ -46,6 +46,11 @@
 			}
 		}
 
+		:global(.ht1) {
+			justify-content: flex-end;
+			margin-right: 2%;
+		}
+
 		:global(.vd1) {
 			display: flex;
 			flex-direction: column;
@@ -54,9 +59,9 @@
 
 			video {
 				position: relative;
-				top: 2.5%;
+				top: 2.75%;
 				display: block;
-				height: calc(var(--hero-font-size) * 0.725);
+				height: calc(var(--hero-font-size) * 0.724);
 				object-fit: contain;
 			}
 		}
@@ -70,6 +75,8 @@
 			span {
 				text-align: right;
 				text-transform: uppercase;
+				margin-top: 3%;
+				margin-right: 5%;
 			}
 		}
 
@@ -82,12 +89,19 @@
 				'__0 __0 __0 __0 __0 vd1 vd1 vd1';
 			--hero-font-size: 8.5vw;
 
+			:global(.ht1) {
+				justify-content: initial;
+				margin-right: initial;
+			}
+
 			:global(.hs1) {
 				align-items: flex-start;
 				margin-bottom: fluid(10, 40);
 
 				span {
 					text-align: left;
+					margin-top: initial;
+					margin-right: initial;
 				}
 			}
 
