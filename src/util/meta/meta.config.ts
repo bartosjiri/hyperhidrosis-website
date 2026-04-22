@@ -1,6 +1,6 @@
-export const META_DOMAIN = 'https://hyperhidrosis.help';
+export const META_DOMAIN = 'https://hyperhidrosis.pages.dev';
 
-export const META_TITLE = `HYPERHIDROSIS.HELP`;
+export const META_TITLE = `HYPERHIDROSIS HELP+`;
 export const META_DESCRIPTION =
 	'Learn about hyperhidrosis, a condition characterized by excessive sweating. Find out about the causes, diagnosis, and treatment options.';
 export const META_KEYWORDS = [

@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://hyperhidrosis.help" target="_blank"><img height="72" src="static/meta/logo-text.svg" alt="Hyperhidrosis.help logo" /></a>
+  <a href="https://hyperhidrosis.pages.dev" target="_blank"><img height="72" src="static/meta/logo-text.svg" alt="Hyperhidrosis.help logo" /></a>
 </p>
 <hr/>
 
